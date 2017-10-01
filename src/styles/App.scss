@@ -1,0 +1,19 @@
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+@import './Table.scss';
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.app-container {
+  padding: 30px;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+  color: white;
+}
